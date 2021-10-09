@@ -82,3 +82,55 @@ https://user-images.githubusercontent.com/88579497/136651940-21aacd20-f9d5-417e-
 https://user-images.githubusercontent.com/88579497/136652611-44fe6055-a79d-4f92-ba4f-1260647be89d.mov
 
 
+
+// const root = document.querySelector('#root');
+    // const btn_plus = document.querySelector('#btn_plus')
+
+    // let i= 0;
+
+    // root.innerHTML = '<p>init : 0</p>';
+
+    // btn_plus.addEventListener('click', ()=>{
+    //   root.innerHTML = `<p> init : ${++i} </p>`
+    // });
+
+    // const component = {
+    //   message: 'init',
+    //   count: 0,
+    //   render() {
+    //     return `<p>${this.message} : ${this.count}</p>`;
+    //   }
+    // };
+
+    // function render(rootElement, component) {
+    //   rootElement.innerHTML = component.render();
+    // }
+    // //초기화
+    // render(document.querySelector('#root'), component);
+
+    // document.querySelector('#btn_plus').addEventListener('click', () => {
+    //   component.message = 'update';
+    //   component.count = component.count +1;
+
+    //   render(document.querySelector('#root'), component);
+    // });
+
+    // 리액트 컴포넌트
+    // <p hello = "world"> 피 태그를 쓸건데 null자리 들어 갈 피 태그 값이지만 null이라 받지 않는다
+    // <p>""</p>
+    // 외부에서 프롭스로 받은 메시지와 카운터를 피 태그의 가운데에 들어가는 값으로 정의 
+    // const component = props => {
+    //   return React.createElement('p', null, `${props.message}:${props.count}`);
+    // }
+
+    // ReactDOM.render(React.createElement(component, {
+    //   message: 'init',
+    //   count: 0
+    // }, null), document.querySelector('#root'));
+
+    // document.querySelector('#btn_plus').addEventListener("click", () => {
+    //   ReactDOM.render(React.createElement(component, {
+    //     message: 'update',
+    //     count: 10
+    //   }, null), document.querySelector('#root'));
+    // });

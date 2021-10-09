@@ -75,21 +75,56 @@
     // <p hello = "world"> 피 태그를 쓸건데 null자리 들어 갈 피 태그 값이지만 null이라 받지 않는다
     // <p>""</p>
     // 외부에서 프롭스로 받은 메시지와 카운터를 피 태그의 가운데에 들어가는 값으로 정의 
-    const component = props => {
-      return React.createElement('p', null, `${props.message}:${props.count}`);
-    }
+    // const component = props => {
+    //   return React.createElement('p', null, `${props.message}:${props.count}`);
+    // }
 
-    ReactDOM.render(React.createElement(component, {
-      message: 'init',
-      count: 0
-    }, null), document.querySelector('#root'));
+    // ReactDOM.render(React.createElement(component, {
+    //   message: 'init',
+    //   count: 0
+    // }, null), document.querySelector('#root'));
 
-    document.querySelector('#btn_plus').addEventListener("click", () => {
-      ReactDOM.render(React.createElement(component, {
-        message: 'update',
-        count: 10
-      }, null), document.querySelector('#root'));
-    });
+    // document.querySelector('#btn_plus').addEventListener("click", () => {
+    //   ReactDOM.render(React.createElement(component, {
+    //     message: 'update',
+    //     count: 10
+    //   }, null), document.querySelector('#root'));
+    // });
+    
+
+    //class 컴포넌트 사용법
+    //정의
+    // class ClassComponent extends React.Component{
+    //   render() {
+    //     return <div>Hello</div>;
+    //   }
+    // }
+
+    // //사용 
+    // ReactDOM.render(
+    //   <ClassComponent/>,
+    //   document.querySelector('#root')
+    // )
+
+    //function 컴포넌트 사용법
+    //정의 1
+    // JSX 란? 리액트.createElement를 하겠다는 말 
+    // function FunctionComponent() {
+    //   return <div>Hello</div>;
+    // }
+    
+    // //사용
+    // ReactDOM.render(<FunctionComponent/>, document.querySelector('#root'));
+
+    // 정의 2
+    // 에로우 펑션의 특징은 만약 리턴만 있다면 중괄호와 리턴을 생략 할 수 있다 !
+    // const FunctionComponent = () => <div>Hello</div>;
+
+    // ReactDOM.render(<FunctionComponent/>, document.querySelector('#root'));
+    
+
+
+
   </script>
 </body>
 
