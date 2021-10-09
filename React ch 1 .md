@@ -47,3 +47,38 @@ SSR
 실행
 - js가 전부 다운로드 되지 않아도, 일단 화면은 보이지만 유저가 사용 할 수 없음.
 - js 가 전부 다운로드 되어 리액트 애플리케이션이 정상 실행된 후, 유저가 사용 가능
+
+리액트가 하는 일
+-리액트의 핵심 모듈 2개
+
+//1. 리액트 컴포넌트 -> html엘레먼트 연결하기 
+import ReactDOM from 'react-dom';
+리액트 돔으로 부터 리액트 돔을 가져 온다 
+리액트 돔은 리액트 컴포넌트 를 html 엘레먼트에 연결
+
+//2. 리액트 컴포넌트 만들기 
+import React from 'react';
+
+import는 ES6 부터 사용하는 방법 
+
+
+- 프론트 엔드
+
+html -> css -> js로 dom을 조작 
+
+직접 돔을 제어 하는 방식
+
+https://user-images.githubusercontent.com/88579497/136651486-11c3d612-8104-47c2-bda7-749a473592e7.mov
+
+
+- 컴포넌트를 활용한 프론트엔드 
+
+https://user-images.githubusercontent.com/88579497/136651940-21aacd20-f9d5-417e-afe0-1cb407d11e6a.mov
+
+-리액트를 이용한 
+
+
+
+https://user-images.githubusercontent.com/88579497/136652611-44fe6055-a79d-4f92-ba4f-1260647be89d.mov
+
+
