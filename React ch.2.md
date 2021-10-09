@@ -1,6 +1,6 @@
 
 
-<!-- Hooks 이전 
+Hooks 이전 
 
  1. 컴포넌트 내부에 상태가 있다면?
   - class 컴포넌트를 사용
@@ -18,48 +18,48 @@ Hook 이후
 
  import React from 'react';
 
- //정의 -->
+ 정의
 
- <!-- class ClassComponent extends React.Component {
+class ClassComponent extends React.Component {
     render() {
       retrun (<div>Hello</div>)
     }
  }
-// 사용
-<ClassComponent/> -->
-<!-- 
+사용
+<ClassComponent/>
+
 function 컴포넌트 
 
 import React from 'react';
 
-//정의 1
+정의 1
 function FunctionComponent() {
   return <div>Hello</div>
 }
 
-//정의 2
+정의 2
 const FunctionComponent = () => <div>Hello</div>;
 
-//사용
+사용
 <FunctionComponent/> -->
 
-//class 컴포넌트 사용법
-//정의
-// class ClassComponent extends React.Component{
-//   render() {
-//     return <div>Hello</div>;
-//   }
-// }
+class 컴포넌트 사용법
+정의
+ class ClassComponent extends React.Component{
+   render() {
+     return <div>Hello</div>;
+   }
+ }
 
-// //사용 
-// ReactDOM.render(
-//   <ClassComponent/>,
-//   document.querySelector('#root')
-// )
+ 사용 
+ ReactDOM.render(
+   <ClassComponent/>,
+   document.querySelector('#root')
+ )
 
-//function 컴포넌트 사용법
-//정의 1
-// JSX 란? 리액트.createElement를 하겠다는 말 
+function 컴포넌트 사용법
+정의 1
+ JSX 란? 리액트.createElement를 하겠다는 말 
 <!-- // function FunctionComponent() {
 //   return <div>Hello</div>;
 // }
@@ -207,10 +207,10 @@ Props 와 State 를 바탕으로 컴포넌트를 그린다
 
 // render(){
 //   return (
-<!-- //     <div>
+//     <div>
 //       <h1>{this.props.message} 이것은 함수로 만든 컴포넌트 입니다.</h1>
 //       <p>{this.state.count}</p>
-//     </div> -->
+//     </div>
 //   )
 // }
 
@@ -236,4 +236,4 @@ Props 와 State 를 바탕으로 컴포넌트를 그린다
 // }
 
 
-<!-- // ReactDOM.render(<Component message ="기본값 아님" />, document.querySelector('#root')) -->
+// ReactDOM.render(<Component message ="기본값 아님" />, document.querySelector('#root'))
