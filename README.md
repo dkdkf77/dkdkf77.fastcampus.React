@@ -21,6 +21,30 @@
 3. Git
 4. VSCode
 
+리액트가 하는 일
+-리액트의 핵심 모듈 2개
+
+//1. 리액트 컴포넌트 -> html엘레먼트 연결하기 
+import ReactDOM from 'react-dom';
+리액트 돔으로 부터 리액트 돔을 가져 온다 
+리액트 돔은 리액트 컴포넌트 를 html 엘레먼트에 연결
+
+//2. 리액트 컴포넌트 만들기 
+import React from 'react';
+
+import는 ES6 부터 사용하는 방법 
+
+
+- 프론트 엔드
+
+html -> css -> js로 dom을 조작 
+
+
+
+
+
+
+
 
 
 
