@@ -13,6 +13,14 @@
  
 #### 하루에 한 강의 정도 수강 후 정리 해서 깃에 올릴 예정.
 
+#### 개발 환경 체크 
+1. Node.js
+ - installer
+ - nvm
+2. Chrome
+3. Git
+4. VSCode
+
 
 
 
