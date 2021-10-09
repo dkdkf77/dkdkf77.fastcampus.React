@@ -44,6 +44,8 @@ https://user-images.githubusercontent.com/88579497/136651486-11c3d612-8104-47c2-
 
 - 컴포넌트를 활용한 프론트엔드 
 
+https://user-images.githubusercontent.com/88579497/136651940-21aacd20-f9d5-417e-afe0-1cb407d11e6a.mov
+
 
 
 
