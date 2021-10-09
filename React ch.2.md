@@ -14,25 +14,25 @@ Hook 이후
  - class
  - function
 
- class 컴포넌트 
+ //class 컴포넌트 
 
  import React from 'react';
 
- 정의
+ //정의
 
 class ClassComponent extends React.Component {
     render() {
       retrun (<div>Hello</div>)
     }
  }
-사용
+//사용
 <ClassComponent/>
 
-function 컴포넌트 
+//function 컴포넌트 
 
 import React from 'react';
 
-정의 1
+//정의 1
 function FunctionComponent() {
   return <div>Hello</div>
 }
@@ -40,34 +40,34 @@ function FunctionComponent() {
 정의 2
 const FunctionComponent = () => <div>Hello</div>;
 
-사용
+//사용
 <FunctionComponent/> -->
 
 class 컴포넌트 사용법
-정의
+//정의
  class ClassComponent extends React.Component{
    render() {
      return <div>Hello</div>;
    }
  }
 
- 사용 
+ //사용 
  ReactDOM.render(
    <ClassComponent/>,
    document.querySelector('#root')
  )
 
-function 컴포넌트 사용법
-정의 1
+//function 컴포넌트 사용법
+//정의 1
  JSX 란? 리액트.createElement를 하겠다는 말 
  function FunctionComponent() {
    return <div>Hello</div>;
  }
 
-사용
+//사용
  ReactDOM.render(<FunctionComponent/>, document.querySelector('#root'));
 
-정의 2
+//정의 2
  에로우 펑션의 특징은 만약 리턴만 있다면 중괄호와 리턴을 생략 할 수 있다 !
  const FunctionComponent = () => <div>Hello</div>;
 
@@ -111,7 +111,7 @@ compoenet를 #root에다 넣을껀데 윗쪽 정의한 Component 함수에서 �
  );
 
   4. 복잡한 리엑트 엘리먼트 모임 
-<h1>안녕하세요</h1>
+<!-- <h1>안녕하세요</h1>
  밑에 것을 리액트 방식으로 표현 하기
  <div>
    <div>
@@ -120,7 +120,7 @@ compoenet를 #root에다 넣을껀데 윗쪽 정의한 Component 함수에서 �
          <li>React</li>
        </ul> 
    </div>
- </div>
+ </div> -->
    순수하게 자바스크립트로 코딩한 것 
  ReactDOM.render(
    React.createElement('div', null, React.createElement('div', null, React.createElement('h1', null, "주제"), React
