@@ -39,6 +39,8 @@ import는 ES6 부터 사용하는 방법
 
 html -> css -> js로 dom을 조작 
 
+https://user-images.githubusercontent.com/88579497/136651486-11c3d612-8104-47c2-bda7-749a473592e7.mov
+
 
 
 
