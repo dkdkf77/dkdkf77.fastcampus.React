@@ -38,8 +38,11 @@ import는 ES6 부터 사용하는 방법
 - 프론트 엔드
 
 html -> css -> js로 dom을 조작 
-
+직접 돔을 제어 하는 방식
 https://user-images.githubusercontent.com/88579497/136651486-11c3d612-8104-47c2-bda7-749a473592e7.mov
+
+
+- 컴포넌트를 활용한 프론트엔드 
 
 
 
