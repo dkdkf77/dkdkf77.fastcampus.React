@@ -1,6 +1,6 @@
 
 
-Hooks 이전 
+<!-- Hooks 이전 
 
  1. 컴포넌트 내부에 상태가 있다면?
   - class 컴포넌트를 사용
@@ -18,7 +18,7 @@ Hook 이후
 
  import React from 'react';
 
- //정의
+ //정의 -->
 
  <!-- class ClassComponent extends React.Component {
     render() {
@@ -94,7 +94,7 @@ const FunctionComponent = () => <div>Hello</div>;
 //   return React.createElement('p', null, `type 이 "리액트 컴포넌트" 입니다.`);
 // }
 //     // compoenet를 #root에다 넣을껀데 윗쪽 정의한 Component 함수에서 들고 온다.
-//     // <Component></Compoenet> => <Component/> => <p>type 이 "리액트 컴포넌트" 입니다.</p>
+<!-- //     // <Component></Compoenet> => <Component/> => <p>type 이 "리액트 컴포넌트" 입니다.</p> -->
 //     ReactDOM.render(
 //       React.createElement(Component, null, null),document.querySelector('#root')
 //     )
