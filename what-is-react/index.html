@@ -17,75 +17,26 @@
     console.log(React);
     console.log(ReactDOM);
 
-    // {message: "안녕하세요!!"}
-
-    // body에서 <div>를 받아오고 함수에서 <div>랑 <h1>을 받아 온다 
-
-    //<div><div><h1>"안녕하세요!"" 이것은 함수로 만든 컴포넌트 입니다."</h1></div></div>
-
-    // 이런 식으로 표현 됌 
-
-    // function Component(props) {
-    //   return (
-    //     <div>
-    //       <h1>{props.message} 이것은 함수로 만든 컴포넌트 입니다.</h1>
-    //     </div>
-    //   )
+    // function Component() {
+    //   return <div><button onClick = {()=>{
+    //     console.log('click')}}>클릭</button></div>
     // }
 
-    // Component.defaultProps = {
-    //   message : '기본값',
-    // }
-
-    //state는 객체 형태로만 존재 
-
-    // state를 변경 할때는 규칙이 있다.
-    // constructor를 사용해도 된다.
-
-    // class Component extends React.Component {
-      // state = {
-      //   count : 0,
-      // };
-
-      // constructor(props) {
-      //   super(props);
-
-      //   //
-      //   this.state = { count: 0};
-      // }
-
-      // render(){
-      //   return (
-      //     <div>
-      //       <h1>{this.props.message} 이것은 함수로 만든 컴포넌트 입니다.</h1>
-      //       <p>{this.state.count}</p>
-      //     </div>
-      //   )
-      // }
-
-      // 라이프 사이클 훅 
-      // componentDidMount() {
-      //   setTimeout(() => {
-      //       //
-            // this.state.count = this.state.count + 1;
-            // this.setState({
-            //   count: this.state.count + 1,
-            // });
-    //         this.setState((previousState) => {
-    //           const newState = { count : previousState.count + 1};
-    //           return newState;
-    //         });
-    //     }, 1000)
-    //   }
-          
-
-    //   static defaultProps = {
-    //       message : '기본값',
-    //   }
-    // }
+    class Component extends React.Component {
+      state = {
+        cound : 0,
+      };
+      render () {
+        return <div>
+          <p>{this.state.count}</p><button onClick= {()=>{
+        console.log('click')
+        this.setState((state) => ({...state, count: state.count + 1,}))    
+      }}>클릭</button></div>
+      }
+    }
 
 
-    // ReactDOM.render(<Component message ="기본값 아님" />, document.querySelector('#root'))
+    ReactDOM.render(<Component/>, document.querySelector('#root'));
   </script>
 </body>
 
